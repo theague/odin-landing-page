@@ -7,10 +7,11 @@ body {
 }
 
 .inner {
-    width: 1000px;
+    width: 950px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .nav {
@@ -23,9 +24,6 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-}
-.nav-links {
-
 }
 
 ul {
@@ -48,8 +46,8 @@ a {
 }
 
 .hero-content {
-    width: 50%;
-    height: 175px;
+    width: 415px;
+    height: 225px;
     display: flex;
     flex-direction: column;
 }
@@ -59,7 +57,6 @@ h1 {
     font-weight:900;
     color: #F9FAF8;
     margin: 0;
-    line-height: 1;
 }
 
 .subtext {
@@ -70,12 +67,14 @@ h1 {
 button {
     background-color: #3882F6;
     margin-bottom: 0;
-    padding: 6px 15px;
-    border-radius: 4px;
+    padding: 10px 30px;
+    border-radius: 8px;
     color: #F9FAF8;
     border: none;
     align-self: flex-start;
     margin-top: auto;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 #hero-image {
@@ -83,6 +82,7 @@ button {
 }
 
 .section1 {
+    height: 450px;
     display: flex;
     flex-direction: column;
 }
@@ -91,8 +91,34 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
+    margin: 40px 0;
 }
 
 .sub-content {
+    display: flex;
+    gap: 50px;
+    
+}
 
+.card {
+    width: 150px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.card img {
+    border-radius: 15px;
+    border: solid #3882F6 3px;
+}
+
+.card p {
+    margin-top: 5px;
+}
+
+.section2 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7Eb;
 }
